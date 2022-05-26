@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.car-list{
+    display: flex;
+    justify-content: center;
+}
+.car-item {
+    width: 307px;
+    padding: 48px 47.5px;
+    background-color: #E28625;
+    list-style-type: none;
+    border-radius: 8px;
+}
+
+.car-img {
+    margin-bottom: 35px;
+}
+
+.car-title {
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    width: 101px;
+    margin: 0px;
+    margin-bottom: 25px;
+    padding: 0px;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+}
+
+.car-text{
+    font-size: 15px;
+    line-height: 25px;
+    width: 212px;
+    margin: 0px;
+    margin-bottom: 83px;
+    padding: 0px;
+    color: #FFFFFF;
+    opacity: 0.75;
+}
+
+.car-link{
+    border: 1px solid #fff;
+    border-radius: 25px;
+    padding: 11px 35px;
+    color: #ffa600;
+    background-color: #fff;
+    text-decoration: none;
+}
+.car-link:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.suvs{
+    background-color: #004140;
+}
+
+.luxury{
+    
+    background-color: #006971;
+}
+
+.suvs-text{
+    color: #004140;
+}
+
+.luxury-text{
+    color: #006971;
+}
